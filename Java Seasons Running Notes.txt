@@ -1,0 +1,520 @@
+Java :
+
+Features of Java :
+
+
+1) Simple 
+
+2) Object Oriented 
+
+Object
+Class
+Encapsulation
+Polymorphism
+Inheritance 
+Abstraction 
+
+3) Robust 
+
+int i=10;
+
+String s="Livetech" 
+
+int j=i+s;
+
+4) Secure 
+
+5) Platform Independent 
+
+
+Platform means OS
+
+
+6) Architectural Neutral 
+
+means Processor + RAM 
+
+7) Portable 
+
+means Architecture (Core Design)
+
+
+
+WORA (Write Once Run Anywhere)
+
+=============================================================
+
+Java  ( JSE   / jdk)
+
+Java Group name (Collection or group of subjects or modeules)
+
+JSE Java Standard Edition  - logical name or Module name
+
+jdk - java development kit ( physical software)
+
+*************************
+jdk installation :
+*************************
+
+https://www.oracle.com/in/java/technologies/downloads/
+
+
+Java 22  (latest)
+ 
+JDK Development Kit 22.0.1 downloads
+
+
+In some projects (Java 17 is used )
+
+but mostly projects use (Java 11)
+
+we will download jdk 11 
+
+Product/file description	File size	Download
+x64 Installer				141.70 MB	jdk-11.0.23_windows-x64_bin.exe
+
+download the below .exe file 
+
+*************************
+java configuration
+*************************
+
+
+Variable Name   JAVA_HOME 
+
+Variable value  C:\Program Files\Java\jdk-11
+
+path C:\Program Files\Java\jdk-11\bin
+
+??????????????????????????????????????????????????????????????????????
+Assignment -1 
+
+Complete the jdk installation and send screenshots of jdk-11 folder 
+
+and cmd java -version results to below email id 
+
+
+riyazsirnotes@gmail.com
+
+???????????????????????????????????????????????????????????????????
+
+
+
+							jdk folders
+							
+							
+							
+			lib					bin	/tools				jre 				
+							
+							
+							
+lib : Library 
+
+It consists of predefined stuff to development of java application.
+
+								
+								lib
+								|
+							    APIs(Application Program Interface)
+								|
+							   jar (java Archive  ~ zip file)
+							   `|
+							   packages ( ~ folders)
+							    |
+						------------------
+				classes					 Interfaces
+				   |						 |
+			   --------------          -------------------
+			  |              |         |				  |
+			variables      methods    Fields or			  Abstract methods 
+									  Constants
+			
+							
+							
+							
+							
+							
+bin : binaries 
+
+tools for compiling , executing the java files
+
+e.g javac , java , jar , etc ..
+
+to compile we use javac tools
+
+syntax :
+
+javac FileName.java
+
+
+to execute or run we use java tools
+
+syntax :
+
+java FileName 
+
+
+-------------------------------------------------
+jre or jmods 
+
+java runtime environment
+
+jvm - java virtual machine 
+
+										jvm
+									
+									
+				CLSS					EE   					GC	
+
+
+							  Interpreter   JIT complier
+									
+									
+CLSS 
+
+Class Loader Subsystem 
+- Loading 
+- Linking
+- Initialization
+
+EE : Excution Engine 
+
+Interpreter : Byte code to Binary code 				
+
+JIT compiler : Just in time 
+
+GC : Garbage Collector 
+
+Mark 
+
+Sweep 
+
+------------------------------------------------------------------
+Structure of Java Program 
+-----------------------------------------------------------------
+4 sections 
+
+1. Documentation Sections or Comments Sections
+2. Package Section
+3. Import Section
+4. Class / Interface Section
+
+1. Documentation Section
+
+single line comment using //
+
+multiline comment using 
+/*  
+
+*/
+----------------------------------------------------------------------
+
+2. Package Section
+
+Package means Folders 
+
+Package is for logical grouping of java file (class or interfaces)
+
+syntax :
+
+package packagename;
+
+if more packages 
+
+package pack1.pack2;
+
+package statement is the first statement in java program
+
+----------------------------------------------------------------------
+
+3.import section 
+
+
+syntax : 
+
+import packagename.*;  ==> this is not prefered , because more generic or poor readability
+
+import packagename.ClassName; ==> this is  prefered , because more readability
+
+----------------------------------------------------------------------
+
+4. Class / Interface Section
+
+
+access-specifier modifier class ClassName
+{
+
+variables;
+
+methods ;
+
+}
+
+access-specifier  or Access-label ( public  / protected /private / unspecicifed or <default> )
+
+ modifier
+ 
+ 
+--------------------------------------------------------------------------------
+
+main method :
+
+public static void main(String[] args)
+{
+
+
+}
+
+----------------------------------------------------------------------------------------
+----------------------------------------------------------------------------------------
+Java Naming Conventions 
+----------------------------------------------------------------------------------------
+
+
+
+
+							   packages ( ~ folders)
+							    |
+						------------------
+				classes					 Interfaces
+				   |						 |
+			   --------------          -------------------
+			  |              |         |				  |
+			variables      methods    Fields or			  Abstract methods 
+									  Constants
+
+
+
+packages : all lower case 
+
+e.g java.util
+
+e.g testscripts.regression 
+
+
+classes /Interfaces  :  Title Case  
+
+e.g Scanner
+
+e.g ChromeDriver
+
+variables : (Camel Case = Lower Case + Tiltle CasE)
+
+e.g x 
+
+e.g netSalary
+
+e.g costOfItem
+
+Methods or Abstract methods : (Camel Case = Lower Case + Tiltle CasE)
+
+they will ( 
+
+e.g main(
+
+e.g println(
+
+e.g nextInt(
+
+
+Fields or Constants : All upper case 
+
+
+e.g   PI =3.14 ;
+
+e.g MAX_LIMIT=10000;
+
+=============================================================
+JAVA Memory Blocks
+=============================================================
+1) Class Area or Method Area
+
+Static Variables
+Static Methods
+Static Blocks
+.class files 
+
+2) Heap Area
+
+Objects 
+Arrays etc ..
+
+
+3) Java Stack Area (JSA)
+
+Local Variables 
+Expressions 
+Current Running logic 
+
+
+4) String Constant Pool Area (SCPA)
+
+String Literals 
+
+String s1="Livetech"
+
+
+=========================================================
+Variables in JAVA
+=========================================================
+
+Variable is reference to some value or data 
+
+syntax :
+
+access-specifier modifier data-type variablename ; ==> declaration
+
+variablename =value ; ==> assignment or initialization
+
+or
+
+access-specifier modifier data-type variablename = value ; initialization
+
+Based on location and behaviour variables are classified into 3 types 
+
+						
+							
+								Variables
+								
+		1) Local						2) Instance				3)Static
+
+
+Local : 
+
+
+1. Def : variables which are declared inside a method
+
+2. where memory allocation ?
+
+Java Stack Area
+
+3. When memory is getting allocated ?
+
+when the memory where variable is declared is called 
+
+4. What is the calling style ?
+
+by Variable name itself
+
+5. Scope or lifetime ?
+
+untill the end of method 
+
+Note :
+
+VariablesDemo1.java:13: error: variable b might not have been initialized
+System.out.println(b);
+                   ^
+1 error
+
+for Local variables it is reponsibility of Developer or Programmer to initialize some value 
+
+====================================================
+2) Instance	
+
+1. Def : 
+
+Variables whic are declared inside a class but outside of method 
+
+2. where memory allocation ?
+
+in Heap Area 
+
+3. When memory is getting allocated ?
+
+when an object or instance of that class is created 
+
+ClassName objectName=new ClassName();
+
+4. What is the calling style ?
+
+objectName.variablename
+
+
+5. Scope or lifetime ?
+
+till the last usage of object 
+
+==========================================================
+
+3) Static	
+
+1. Def : 
+
+Variables whic are declared inside a class but outside of method  having keyword static 
+
+2. where memory allocation ?
+
+Class Area or Method Area
+
+3. When memory is getting allocated ?
+
+during .class file loading 
+
+4. What is the calling style ?
+
+ClassName.variablename
+
+5. Scope or lifetime ?
+
+till the end of program 
+
+=======================================================
+
+IDE (Integrated Development Environment) tools
+
+Eclipse / IntelliJ Idea / VSCode / Net beans 
+
+Eclipse :
+
+https://www.eclipse.org/downloads/
+
+Click on "Download Packages"
+
+Eclipse 2023-09 (4.29)
+
+Click "Eclipse 2023-09 (4.29)"
+
+under "Eclipse IDE for Enterprise Java and Web Developers"
+Click "Windows x86_64"
+
+
+??????????????????????????????????????????????????????????????????????
+Assignment -2
+
+download eclipse and open the eclipse application
+
+take screenshot and send to below email id 
+
+
+riyazsirnotes@gmail.com
+
+???????????????????????????????????????????????????????????????????
+
+
+
+
+
+
+
+ 
+
+
+		
+								
+								
+							
+							
+							
+							
+							
+							
+							
+
+
+
+
+
+
+
+
