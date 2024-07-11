@@ -491,20 +491,110 @@ riyazsirnotes@gmail.com
 
 ???????????????????????????????????????????????????????????????????
 
+Data types in Java :
 
 
 
+=======================================================
+Methods in Java 
+=======================================================
+
+Set of instructions to do some task is method 
+
+Advantages :
+
+1) Reusabilty
+2) decreases code redundancy
+3) increases code clarity
+4) Code debugging becomes easy
+
+Syntax :
+
+access-specifier modifier return-type methodName(arguments or parameters)
+{
+//statements
+
+return statement;
+
+}
+
+
+									Types of Method
+									
+									
+									
+				Instance 									Static
+				or
+				Non-static methods 
+				
+	
+Non-static methods or Instance methods : 
+
+ 1. Def : 
+
+methods which are defined without keyword static 
+
+e.g default , abstract , transitient etc 
+
+2. where memory allocation ?
+
+in Heap Area 
+
+3. When memory is getting allocated ?
+
+when an object or instance of that class is created 
+
+ClassName objectName=new ClassName();
+
+4. What is the calling style ?
+
+objectName.methodName
+
+
+5. Scope or lifetime ?
+
+till the last usage of object 
 
 
 
- 
+Methods :
 
 
-		
-								
+methods without return-type and without paramters
+
+methods with return-type and with parameters
+
+methods without return-type	and with parameters
+
+methods with return-type and without parameters								
 								
 							
-							
+???????????????????????????????????????????????????????????
+
+Assignment 3
+
+WAP to calculate simple Interest using below 4 models 
+
+
+methods without return-type and without paramters
+
+methods with return-type and with parameters
+
+methods without return-type	and with parameters
+
+methods with return-type and without parameters		
+
+hint : SI = PTR /100;
+
+and send the program to below email 
+
+riyazsirnotes@gmail.com	
+
+
+????????????????????????????????????????????????????????????????					
+								
+
+								
 							
 							
 							
