@@ -594,6 +594,55 @@ riyazsirnotes@gmail.com
 ????????????????????????????????????????????????????????????????					
 								
 
+	
+static methods  : 
+
+ 1. Def : 
+
+methods which are defined with keyword static 
+
+
+2. where memory allocation ?
+
+in Class Area/Method Area  
+
+3. When memory is getting allocated ?
+
+during .class file loading 
+
+
+4. What is the calling style ?
+
+ClassName.methodName 
+
+
+5. Scope or lifetime ?
+
+till the end of program 
+
+
+------------------------------------------------------------------
+
+
+OOP Object Oriented Programming 
+
+- Object
+- Class
+-> Encapsulation
+-> Polymorphism
+-> Inheritance
+-> Abstraction
+
+Characteristics of object
+
+State -> attributes or properties 
+
+Behaviour -> the actions or tasks 
+
+Identity -> a unique id to identify objects 
+
+
+
 								
 							
 							
