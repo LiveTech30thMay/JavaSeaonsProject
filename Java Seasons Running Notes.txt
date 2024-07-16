@@ -641,19 +641,91 @@ Behaviour -> the actions or tasks
 
 Identity -> a unique id to identify objects 
 
+Class : 
+
+A blue print or template from which you can create objects 
+
+syntax :
 
 
-								
+access-specifier modifier class ClassName
+{
+
+//variables 
+
+//methods 
+
+
+}							
 							
+----------------------------------------------
+Object Creation Techniques
+----------------------------------------------
+1. using new operator 
+
+ClassName objectName=new ClassName();		
+
+2. using Static Factory Method 
+
+ClassName objectName=ClassName.methodName();
+
+
+Class A 
+{
+
+public static A m1()
+{
+  ---
+
+  return obj;
+}
+
+
+}					
 							
-							
-							
-							
+Class Demo
+{
+
+psvm(String[] args)
+{
+
+  A obj=new A();
+  or
+  A obj=A.m1();
+}					 		
+
+}							
+
+3. Using non-static Factory method
+
+ClassName1 object1=new ClassName1();
+
+ClassName2 object2=object1.methodName();
+
+e.g 
+
+XSSFWorkbook 
+
+XSSFSheet
+
+XSSFWorkbook wb=new XSSFWorkbook();
+
+XSSFSheet ws=wb.getSheet();
 
 
+4. using clone method 
+
+5. using literals 
+
+ClassName objectName="value";
+
+e.g String s1="Livetech";
 
 
+Integer x=10;
 
+6. using deserialization 
 
+No syntax (used by JVM) 
 
 
