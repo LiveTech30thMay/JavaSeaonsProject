@@ -756,3 +756,56 @@ for example, a capsule which is mixed of several medicines.
 Encapsulation = Data hiding +Abstraction 
 
 The field Bank.balance is not visible
+
+------------------------------
+
+PrintStream 
+
+print ==>this will print something on console and cursor stays in same line 
+
+* * * * *
+* * * * 
+* * *
+* *
+*
+
+
+println ==> this will print something on console and cursor moves to next line
+
+printf ==>  this is used to format the insput as we like 
+
+format  ==> this is used to format the insput as we like 
+
+***
+
+------------------------------------------------------------
+this keyword
+
+this is a keyword cum operator which will refers to current object reference
+
+why we need this ?
+
+when we have local variables same as instance variables 
+local will dominate to overcome this , we are going to use "this" keyword 
+
+
+-------------------------------------------------------------------------
+-------------------------------------------------------------------------
+Polymorphism :
+
+Poly means many
+
+morph means forms 
+
+he method add(int, int) in the type Sum is not applicable for the arguments (double, double)
+The method add(int, int) in the type Sum is not applicable for the arguments (long, long)
+
+
+								Polymorphism
+								
+								
+				Static							Dynamic
+				 or								   or
+				compile time					Runtime
+				  or 							or 
+				Early binding					Late binding
