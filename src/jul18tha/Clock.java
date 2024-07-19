@@ -1,10 +1,10 @@
-package july18tha;
+package jul18tha;
 
 public class Clock {
 	
 	int hr,min,sec;
 	
-	public Clock()
+	public  Clock()
 	{
 		hr=10;
 		min=10;

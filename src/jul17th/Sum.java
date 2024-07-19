@@ -7,6 +7,8 @@ public class Sum {
 		System.out.println("Sum is "+(x+y));
 	}
 	
+	
+	
 	public void add(int x,int y,int z)
 	{
 		System.out.println("Sum is "+(x+y+z));
