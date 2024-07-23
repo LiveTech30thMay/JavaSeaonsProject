@@ -852,3 +852,34 @@ Illegal modifier for the constructor in type Clock; only public, protected & pri
 -------------------------------------------------------------------------
 Inheritance
 
+
+
+Method Overriding :
+
+Method signature 
+
+It's the combination of the method name and the parameter list, 
+
+
+class Marks extends Student 
+
+	  child			parent
+	  sub-class		super class
+	  derived class	Main class 
+	  
+
+
+------------------------------------------
+Abstraction
+------------------------------------------
+
+						Abstraction
+						
+						
+		Abstract class					Interfaces
+
+    0 -100 % abstraction				100 % abstraction 
+
+
+	
+						
