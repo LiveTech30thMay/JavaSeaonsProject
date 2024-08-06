@@ -888,4 +888,87 @@ Take an array intialize with values 1 to 10
 and store the squesre of the values in same array 
 
 ?????????????????????????????????????????????????????
+
+
+Collections Framework or API 
+
+java.util 
+
+
+findElement(By):WebElement
+findElements(By):List<WebElement>
+
+getWindowHandle():String
+getWindowHandles():Set<String> 
+
+Methods in Collection(I) :
+
+add(E):boolean 
+
+this is used to add item or element to a collection class 
+
+E is an Element or item  of any datatype 
+
+contains(Object):boolean 
+
+this will search for an items and return true if found 
+
+isEmpty():boolean 
+
+this will check if the collection is empty or not 
+
+size():int 
+
+this will give no of items present in a collection 
+
+
+===============================
+Methods in List(I)
+
+add(int, E):void 
+
+get(int):E 
+
+here int is index of the element
+
+iterator():Iterator<E> 
+
+syso(a[0]);
+
+syso(a.get(0));
+
+
+----------------------------------------------
+Methods In ArrayList (C)  implements List(I) 
+
+ArrayList()
+ArrayList(int)
+ArrayList(Collection<? extends E>)
+
+
+add(E):boolean 
+
+contains(Object):boolean 
+
+add(int, E):void 
+
+get(int):E 
+
+size():int 
+
+To retrieve items in ArrayList : 
+we can use 
+
+i) normal for loop using 
+
+get(int)
+
+ii) using for each loop or Enhanced Loop : 
+
+for(Datatype temp:arrayName or CollectionName)
+{
+
+//use temp 
+
+}
 						
