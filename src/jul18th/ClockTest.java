@@ -11,6 +11,7 @@ public class ClockTest {
 		c1.getClock();
 		
 		
+		
 		//user 2
 		
 		Clock c2=new Clock();
