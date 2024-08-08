@@ -971,4 +971,57 @@ for(Datatype temp:arrayName or CollectionName)
 //use temp 
 
 }
-						
+============================================================================================
+Exception Handling Mechanism
+============================================================================================
+
+Exception in thread "main" java.lang.ArithmeticException: / by zero
+	at aug7th.ExceptionDemo1.main(ExceptionDemo1.java:19)
+
+
+try   catch   finally  throws throw 
+
+try is a block 
+
+try
+{
+
+//risky code
+
+}
+catch(ExceptionName refrence)
+{
+
+//handling code or user friendly code 
+
+}
+
+									Exceptions in Java 
+									
+									
+				Checked Exceptions   					UnChecked Exceptions					
+									
+				- FileNotFoundException					- ArithmeticException
+				- InterruptedException
+				
+									
+finally is block :
+
+finally
+{
+//some compulsory code 
+
+}									
+
+------------------------
+
+try catch
+
+try finally
+
+try catch finally
+
+try catch catch .. finally  ==> bottom to top hiererchy
+
+Unreachable catch block for ArithmeticException. 
+It is already handled by the catch block for RuntimeException
