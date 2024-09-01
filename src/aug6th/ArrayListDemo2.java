@@ -10,6 +10,7 @@ public class ArrayListDemo2 {
 		
 		List<String> al=new ArrayList<String>();
 		
+		System.out.println();
 		al.add("Hi");
 		al.add("Welcome");
 		al.add("selenium");

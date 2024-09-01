@@ -1025,3 +1025,20 @@ try catch catch .. finally  ==> bottom to top hiererchy
 
 Unreachable catch block for ArithmeticException. 
 It is already handled by the catch block for RuntimeException
+
+****************************************
+Fibonacci
+
+0, 1, 1, 2, 3, 5, 8, 13, 21, 34, 55, 89, 144, and so on
+
+String : 
+
+immutable ( no one can change beacuse it is final)
+
+Constructors :
+
+String()
+
+String(char[])
+
+String(String)
